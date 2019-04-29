@@ -6,7 +6,9 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 # include "libft/libft.h"
-# define BUFF_SIZE 1
+# define BUFF_SIZE 10000
+# define MAX_FD 12000
+
 
 int get_next_line(int fd, char **line);
 
